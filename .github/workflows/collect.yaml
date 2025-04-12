@@ -3,7 +3,6 @@ on:
   # executed once a week on Sundays at 00:00
   schedule:
     - cron: "0 0 * * *"
-      timezone: Asia/Shanghai
   workflow_dispatch:
 
 concurrency:
